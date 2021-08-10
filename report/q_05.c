@@ -6,7 +6,7 @@
 
 // dV1/dt
 double f_1(double v_1, double v_2, double t) {
-  return (-0.2 * v_1 + 0.1 * v_2 + sin(40000 * M_PI * t)) * 100000;
+  return (-0.2 * v_1 + 0.1 * v_2 + 0.1 * sin(40000 * M_PI * t)) * 100000;
 }
 
 // dV2/dt
