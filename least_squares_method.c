@@ -129,7 +129,7 @@ void makeC(void) {
   int i;
 
   if (solveOK) {
-    printf("近似多項式の係数\n", n);
+    printf("近似多項式の係数\n");
     for (i = 0; i <= n; ++i) {
       c[i] = b[i];
       printf(" c[%d]=%5.2f\n", i, c[i]);
